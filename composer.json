@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "bladeDirectives\\bladeDirectives": "src/"
+            "bladeDirectives\\bladeDirectives\\": "src/"
         }
     },
     "extra": {

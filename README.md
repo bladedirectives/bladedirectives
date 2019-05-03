@@ -9,7 +9,7 @@ A collection of a Nice Laravel Blade directives.
 You can install the package via composer:
 
 ```bash
-composer require bladeDirectives/bladeDirectives
+composer require bladedirectives/bladedirectives
 ```
 
 ## Usage

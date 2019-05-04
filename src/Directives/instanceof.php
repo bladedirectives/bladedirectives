@@ -8,7 +8,7 @@ return [
   */
 
   'instanceof' => function ($expression) {
-      $expression = Directives::getArguments($expression);
+      $expression = BladeDirectives::getArguments($expression);
 
       return  "<?php if ({$expression->get(0)} instanceof {$expression->get(1)}) : ?>";
   },

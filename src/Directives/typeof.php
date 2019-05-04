@@ -8,7 +8,7 @@ return [
   */
 
   'typeof' => function ($expression) {
-      $expression = Directives::getArguments($expression);
+      $expression = BladeDirectives::getArguments($expression);
 
       return  "<?php if (gettype({$expression->get(0)}) == {$expression->get(1)}) : ?>";
   },

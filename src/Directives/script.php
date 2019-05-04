@@ -9,7 +9,7 @@ return [
 
   'script' => function ($expression) {
       if (! empty($expression)) {
-          return '<script src="'.Directives::deleteQuotes($expression).'"></script>';
+          return '<script src="'.BladeDirectives::deleteQuotes($expression).'"></script>';
       }
 
       return '<script>';

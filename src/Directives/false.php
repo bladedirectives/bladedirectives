@@ -9,7 +9,7 @@ return [
 
   'isfalse' => function ($expression) {
       if (str_contains($expression, ',')) {
-          $expression = Directives::getArguments($expression);
+          $expression = BladeDirectives::getArguments($expression);
 
           return  "<?php if (isset({$expression->get(0)}) && (bool) {$expression->get(0)} === false) : ?>".
                   "<?php echo {$expression->get(1)}; ?>".

@@ -25,10 +25,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "bladeDirectives\\bladeDirectives\\DirectivesServiceProvider"
+                "BladeDirectives\\BladeDirectives\\BladeDirectivesServiceProvider"
             ],
             "aliases": {
-              "bladeDirectives" : "bladeDirectives\\bladeDirectives\\DirectivesFacade"
+              "BladeDirectives" : "BladeDirectives\\BladeDirectives\\BladeDirectivesFacade"
             }
         }
     },

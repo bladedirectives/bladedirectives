@@ -1,19 +1,19 @@
 <?php
 
-namespace bladeDirectives\bladeDirectives;
+namespace BladeDirectives\BladeDirectives;
 
 use Illuminate\Support\ServiceProvider;
 
 // use Radioactive\Directives\Directives;
 
-class DirectivesServiceProvider extends ServiceProvider
+class BladeDirectivesServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
      */
     public function boot()
     {
-        \Directives::load();
+        \BladeDirectives::load();
     }
 
     /**
@@ -23,8 +23,8 @@ class DirectivesServiceProvider extends ServiceProvider
      */
     public function register()
     {
-      $this->app->singleton('directives', function ($app) {
-          return new Directives();
+      $this->app->singleton('BladeDirectives', function ($app) {
+          return new BladeDirectives();
       });
     }
 }

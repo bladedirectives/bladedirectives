@@ -4,12 +4,12 @@ namespace bladeDirectives\bladeDirectives;
 
 use Illuminate\Support\Facades\Blade;
 
-class Directives
+class BladeDirectives
 {
 
   public function load()
   {
-    $path = __DIR__.'/bladeDirectives';
+    $path = __DIR__.'/Directives';
 
     $this->registerDirectives(
       $this->loadDirectivesFrom($path)

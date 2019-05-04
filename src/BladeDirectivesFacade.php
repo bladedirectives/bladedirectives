@@ -1,10 +1,10 @@
 <?php
 
-namespace bladeDirectives\bladeDirectives;
+namespace BladeDirectives\BladeDirectives;
 
 use Illuminate\Support\Facades\Facade;
 
-class DirectivesFacade extends Facade
+class BladeDirectivesFacade extends Facade
 {
   /**
    * Get the registered name of the component.
@@ -13,6 +13,6 @@ class DirectivesFacade extends Facade
    */
 	protected static function getFacadeAccessor()
 	{
-    	return 'directives';
+    	return 'BladeDirectives';
 	}
 }

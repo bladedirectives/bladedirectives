@@ -3,6 +3,7 @@
     "description": "A Collection of Laravel Blade Directives Package.",
     "license": "MIT",
     "homepage": "https://bladedirectives.github.io/",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Deyaa Muhammad",
